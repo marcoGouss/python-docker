@@ -17,4 +17,4 @@ jobs:
     - name: run the Docker image
       run: docker build -t exercice .
     - name: Run Docker container
-      run: docker run --rm -ti --name execution_exo exercice
+      run: docker run --rm - --name execution_exo exercice
